@@ -1,0 +1,60 @@
+==26729== Memcheck, a memory error detector
+==26729== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==26729== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==26729== Command: Resultados/SamaraOliveira/matrix_utils/prog Resultados/SamaraOliveira/matrix_utils/Casos/1
+==26729== Parent PID: 26728
+==26729== 
+==26729== Conditional jump or move depends on uninitialised value(s)
+==26729==    at 0x48D40CB: __printf_buffer (vfprintf-process-arg.c:58)
+==26729==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==26729==    by 0x48CA1B2: printf (printf.c:33)
+==26729==    by 0x10A005: matrix_print (in /home/sgoliveira/Prog/Prog-II/exercícios/03_bibliotecas/bibli_02/Resultados/SamaraOliveira/matrix_utils/prog)
+==26729==    by 0x109AD2: main (in /home/sgoliveira/Prog/Prog-II/exercícios/03_bibliotecas/bibli_02/Resultados/SamaraOliveira/matrix_utils/prog)
+==26729== 
+==26729== Use of uninitialised value of size 8
+==26729==    at 0x48C90BB: _itoa_word (_itoa.c:183)
+==26729==    by 0x48D3C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==26729==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==26729==    by 0x48CA1B2: printf (printf.c:33)
+==26729==    by 0x10A005: matrix_print (in /home/sgoliveira/Prog/Prog-II/exercícios/03_bibliotecas/bibli_02/Resultados/SamaraOliveira/matrix_utils/prog)
+==26729==    by 0x109AD2: main (in /home/sgoliveira/Prog/Prog-II/exercícios/03_bibliotecas/bibli_02/Resultados/SamaraOliveira/matrix_utils/prog)
+==26729== 
+==26729== Conditional jump or move depends on uninitialised value(s)
+==26729==    at 0x48C90CC: _itoa_word (_itoa.c:183)
+==26729==    by 0x48D3C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==26729==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==26729==    by 0x48CA1B2: printf (printf.c:33)
+==26729==    by 0x10A005: matrix_print (in /home/sgoliveira/Prog/Prog-II/exercícios/03_bibliotecas/bibli_02/Resultados/SamaraOliveira/matrix_utils/prog)
+==26729==    by 0x109AD2: main (in /home/sgoliveira/Prog/Prog-II/exercícios/03_bibliotecas/bibli_02/Resultados/SamaraOliveira/matrix_utils/prog)
+==26729== 
+==26729== Conditional jump or move depends on uninitialised value(s)
+==26729==    at 0x48D3D89: __printf_buffer (vfprintf-process-arg.c:186)
+==26729==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==26729==    by 0x48CA1B2: printf (printf.c:33)
+==26729==    by 0x10A005: matrix_print (in /home/sgoliveira/Prog/Prog-II/exercícios/03_bibliotecas/bibli_02/Resultados/SamaraOliveira/matrix_utils/prog)
+==26729==    by 0x109AD2: main (in /home/sgoliveira/Prog/Prog-II/exercícios/03_bibliotecas/bibli_02/Resultados/SamaraOliveira/matrix_utils/prog)
+==26729== 
+==26729== Conditional jump or move depends on uninitialised value(s)
+==26729==    at 0x48D40CB: __printf_buffer (vfprintf-process-arg.c:58)
+==26729==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==26729==    by 0x48CA1B2: printf (printf.c:33)
+==26729==    by 0x109FC9: matrix_print (in /home/sgoliveira/Prog/Prog-II/exercícios/03_bibliotecas/bibli_02/Resultados/SamaraOliveira/matrix_utils/prog)
+==26729==    by 0x109AD2: main (in /home/sgoliveira/Prog/Prog-II/exercícios/03_bibliotecas/bibli_02/Resultados/SamaraOliveira/matrix_utils/prog)
+==26729== 
+==26729== Conditional jump or move depends on uninitialised value(s)
+==26729==    at 0x48D3D89: __printf_buffer (vfprintf-process-arg.c:186)
+==26729==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==26729==    by 0x48CA1B2: printf (printf.c:33)
+==26729==    by 0x109FC9: matrix_print (in /home/sgoliveira/Prog/Prog-II/exercícios/03_bibliotecas/bibli_02/Resultados/SamaraOliveira/matrix_utils/prog)
+==26729==    by 0x109AD2: main (in /home/sgoliveira/Prog/Prog-II/exercícios/03_bibliotecas/bibli_02/Resultados/SamaraOliveira/matrix_utils/prog)
+==26729== 
+==26729== 
+==26729== HEAP SUMMARY:
+==26729==     in use at exit: 0 bytes in 0 blocks
+==26729==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==26729== 
+==26729== All heap blocks were freed -- no leaks are possible
+==26729== 
+==26729== Use --track-origins=yes to see where uninitialised values come from
+==26729== For lists of detected and suppressed errors, rerun with: -s
+==26729== ERROR SUMMARY: 46 errors from 6 contexts (suppressed: 0 from 0)
