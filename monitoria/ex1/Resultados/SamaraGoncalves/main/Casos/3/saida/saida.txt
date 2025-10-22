@@ -1,0 +1,71 @@
+Nome: Restaurante Universitário
+Alimentos:
+--------------------
+Nome: 
+Quantidade: 0.00
+Preco: R$ -170124308495678993541894579602814140416.00
+Quantidade consumida: 0.00
+Renda: R$ -0.00
+--------------------
+--------------------
+Nome: 
+Quantidade: 0.00
+Preco: R$ 0.00
+Quantidade consumida: 0.00
+Renda: R$ 0.00
+--------------------
+--------------------
+Nome: 
+Quantidade: 0.00
+Preco: R$ 0.00
+Quantidade consumida: 0.00
+Renda: R$ 0.00
+--------------------
+--------------------
+Nome: 
+Quantidade: 0.00
+Preco: R$ 0.00
+Quantidade consumida: 0.00
+Renda: R$ 0.00
+--------------------
+Quantidade total consumida: 0.00
+Renda total: R$ 0.00
+Nome: Restaurante Universitário
+Alimentos:
+--------------------
+Nome: 
+Quantidade: 0.00
+Preco: R$ -170124308495678993541894579602814140416.00
+Quantidade consumida: 0.00
+Renda: R$ -0.00
+--------------------
+--------------------
+Nome: 
+Quantidade: 0.00
+Preco: R$ 0.00
+Quantidade consumida: 0.00
+Renda: R$ 0.00
+--------------------
+--------------------
+Nome: 
+Quantidade: 0.00
+Preco: R$ 0.00
+Quantidade consumida: 0.00
+Renda: R$ 0.00
+--------------------
+--------------------
+Nome: 
+Quantidade: 0.00
+Preco: R$ 0.00
+Quantidade consumida: 0.00
+Renda: R$ 0.00
+--------------------
+--------------------
+Nome: 
+Quantidade: 0.00
+Preco: R$ 0.00
+Quantidade consumida: 0.00
+Renda: R$ 0.00
+--------------------
+Quantidade total consumida: 0.00
+Renda total: R$ 0.00
