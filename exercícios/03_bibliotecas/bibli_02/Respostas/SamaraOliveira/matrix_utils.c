@@ -1,5 +1,18 @@
 #include <stdio.h>
 
+void inicializaMatrix(int rows, int cols, int matrix[rows][cols])
+{
+    int i, j;
+
+    for (i = 0; i < rows; i++)
+    {
+        for (j = 0; j < cols; j++)
+        {
+            matrix[i][j] = 0;
+        }
+    }
+}
+
 /**
  * @brief Lê os valores da matriz especificada a partir da entrada padrão.
  * @param rows Número de linhas da matriz.
@@ -34,7 +47,7 @@ void matrix_print(int rows, int cols, int matrix[rows][cols])
         printf("|");
         for (j = 0; j < cols; j++)
         {
-            if (j != cols - 2)
+            if (j != cols -1)
             {
                 printf("%d ", matrix[i][j]);
             }
@@ -114,6 +127,8 @@ void matrix_add(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int 
 {
     int i, j;
 
+    inicializaMatrix(rows1, cols1, result);
+
     for (i = 0; i < rows1; i++)
     {
         for (j = 0; j < cols1; j++)
@@ -136,6 +151,8 @@ void matrix_add(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int 
 void matrix_sub(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int cols2, int matrix2[rows2][cols2], int result[rows1][cols1])
 {
     int i, j;
+
+    inicializaMatrix(rows1, cols1, result);
 
     for (i = 0; i < rows1; i++)
     {
@@ -161,13 +178,15 @@ void matrix_multiply(int rows1, int cols1, int matrix1[rows1][cols1], int rows2,
 {
     int i, j, k;
 
+    inicializaMatrix(rows1, cols2, result);
+
     for (k = 0; k < rows1; k++)
     {
-        for (i = 0; i < rows1; i++)
+        for (i = 0; i < cols2; i++)
         {
-            for (j = 0; j < cols2; j++)
+            for (j = 0; j < cols1; j++)
             {
-                result[k][i] += matrix1[i][j] + matrix2[j][i];
+                result[k][i] += matrix1[k][j] * matrix2[j][i];
             }
         }
     }
@@ -183,6 +202,8 @@ void matrix_multiply(int rows1, int cols1, int matrix1[rows1][cols1], int rows2,
 void transpose_matrix(int rows, int cols, int matrix[rows][cols], int result[cols][rows])
 {
     int i, j;
+
+    inicializaMatrix(cols, rows, result);
 
     for (i = 0; i < cols; i++)
     {
