@@ -43,7 +43,6 @@ int main()
             if (possible_matrix_sub(rows1, cols1, rows2, cols2))
             {
                 int result[rows1][cols1];
-                inicializaMatrix(rows1, cols1, result);
 
                 matrix_sub(rows1, cols1, matrix1, rows2, cols2, matrix2, result);
                 matrix_print(rows1, cols1, result);
@@ -65,7 +64,7 @@ int main()
             }
             else
             {
-                printf("Erro: as dimensoes da matriz nao correspondem\n");
+                printf("Erro: o numero de colunas da primeira matriz eh diferente do numero de linhas da segunda matriz\n");
             }
         }
         else if (input == 4)
@@ -83,14 +82,14 @@ int main()
                 matrix_print(rows2, cols2, matrix2);
             }
         }
-        else if (input == 5)
+        else if (input == 5) 
         {
-            int result1[rows1][cols1];
+            int result1[cols1][rows1];
             transpose_matrix(rows1, cols1, matrix1, result1);
-            matrix_print(rows1, cols1, result1);
-            int result2[rows2][cols2];
+            matrix_print(cols1, rows1, result1);
+            int result2[cols2][rows2];
             transpose_matrix(rows2, cols2, matrix2, result2);
-            matrix_print(rows2, cols2, result2);
+            matrix_print(cols2, rows2, result2);
         }
 
         imprimeMenu();

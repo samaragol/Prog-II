@@ -1,3 +1,0 @@
-/usr/bin/ld: Resultados/SamaraOliveira/main/main.o: na função "main":
-main.c:(.text+0x665): undefined reference to `inicializaMatrix'
-collect2: error: ld returned 1 exit status
