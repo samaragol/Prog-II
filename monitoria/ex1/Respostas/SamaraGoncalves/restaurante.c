@@ -29,7 +29,8 @@ tRestaurante leRestaurante()
 {
     char nome[32];
 
-    scanf("%[^\n]\n", nome);
+    scanf("%[^\n]", nome);
+    scanf("%*c");
 
     return criaRestaurante(nome);
 }

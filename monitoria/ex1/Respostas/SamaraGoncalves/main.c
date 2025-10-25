@@ -10,7 +10,7 @@ int main()
 
     restaurante = leRestaurante();
 
-    while (scanf("%c", &opcao) == 1 && opcao != 'E')
+    while (scanf("%c\n", &opcao) == 1 && opcao != 'E')
     {
         if (opcao == 'A')
         {
