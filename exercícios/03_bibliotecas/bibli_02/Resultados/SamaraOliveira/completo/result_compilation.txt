@@ -1,4 +1,0 @@
-main.c: In function ‘main’:
-main.c:46:17: warning: implicit declaration of function ‘inicializaMatrix’ [-Wimplicit-function-declaration]
-   46 |                 inicializaMatrix(rows1, cols1, result);
-      |                 ^~~~~~~~~~~~~~~~
