@@ -1,0 +1,15 @@
+==85872== Memcheck, a memory error detector
+==85872== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==85872== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==85872== Command: Resultados/SamaraGoncalves/temperature_conversor/prog Resultados/SamaraGoncalves/temperature_conversor/Casos/6
+==85872== Parent PID: 85871
+==85872== 
+==85872== 
+==85872== HEAP SUMMARY:
+==85872==     in use at exit: 0 bytes in 0 blocks
+==85872==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==85872== 
+==85872== All heap blocks were freed -- no leaks are possible
+==85872== 
+==85872== For lists of detected and suppressed errors, rerun with: -s
+==85872== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
