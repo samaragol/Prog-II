@@ -34,7 +34,7 @@ tTabuleiro JogaJogador(tJogador jogador, tTabuleiro tabuleiro)
     while (1)
     {
         printf("Jogador %d\n", jogador.id);
-        printf("Digite uma posicao (x e y):\n");
+    
 
         jogada = LeJogada();
 

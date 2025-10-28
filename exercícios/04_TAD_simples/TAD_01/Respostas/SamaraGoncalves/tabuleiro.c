@@ -132,7 +132,7 @@ int EstaLivrePosicaoTabuleiro(tTabuleiro tabuleiro, int x, int y)
  */
 int EhPosicaoValidaTabuleiro(int x, int y)
 {
-    if (x < TAM_TABULEIRO && y < TAM_TABULEIRO)
+    if (x < TAM_TABULEIRO && x >= 0 && y < TAM_TABULEIRO && y >= 0)
     {
         return 1;
     }
@@ -153,6 +153,10 @@ void ImprimeTabuleiro(tTabuleiro tabuleiro)
     {
         for (j = 0; j < TAM_TABULEIRO; j++)
         {
+            if (j == 0)
+            {
+                printf("\t");
+            }
             printf("%c", tabuleiro.posicoes[i][j]);
         }
         printf("\n");

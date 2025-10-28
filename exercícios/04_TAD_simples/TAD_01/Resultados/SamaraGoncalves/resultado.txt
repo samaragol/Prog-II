@@ -10,20 +10,20 @@ Teste completo
   - Valgrinds corretos: 6 de 6
 Nota de SamaraGoncalves para o teste completo: 0
 Teste jogada
-  - Resultados corretos: 0 de 6
+  - Resultados corretos: 6 de 6
   - Valgrinds corretos: 6 de 6
-Nota de SamaraGoncalves para o teste jogada: 0
+Nota de SamaraGoncalves para o teste jogada: 1.67
 Teste jogador
   - Resultados corretos: 0 de 6
   - Valgrinds corretos: 0 de 6
 Nota de SamaraGoncalves para o teste jogador: 0
 Teste tabuleiro
-  - Resultados corretos: 1 de 6
+  - Resultados corretos: 6 de 6
   - Valgrinds corretos: 6 de 6
-Nota de SamaraGoncalves para o teste tabuleiro: .26
+Nota de SamaraGoncalves para o teste tabuleiro: 1.67
 Teste jogo
   - Resultados corretos: 0 de 6
   - Valgrinds corretos: 0 de 6
 Nota de SamaraGoncalves para o teste jogo: 0
-Nota de SamaraGoncalves: 0+(0)+(.26)+(0)+(0)+(0)+(0)
-Nota de SamaraGoncalves: .26
+Nota de SamaraGoncalves: 0+(0)+(1.67)+(1.67)+(0)+(0)+(0)
+Nota de SamaraGoncalves: 3.34
