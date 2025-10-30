@@ -21,7 +21,7 @@ tTabuleiro CriaTabuleiro()
 
     tabuleiro.peca1 = 'X';
     tabuleiro.peca2 = '0';
-    tabuleiro.pecaVazio = ' ';
+    tabuleiro.pecaVazio = '-';
 
     return tabuleiro;
 }
@@ -64,7 +64,7 @@ int TemPosicaoLivreTabuleiro(tTabuleiro tabuleiro)
     {
         for (j = 0; j < TAM_TABULEIRO; j++)
         {
-            if (tabuleiro.posicoes[i][j] == '-')
+            if (tabuleiro.posicoes[i][j] == tabuleiro.pecaVazio)
             {
                 return 1;
             }
@@ -88,14 +88,14 @@ int EstaMarcadaPosicaoPecaTabuleiro(tTabuleiro tabuleiro, int x, int y, int peca
 {
     if (peca == 1)
     {
-        if (tabuleiro.posicoes[y][x] == 'X')
+        if (tabuleiro.posicoes[y][x] == tabuleiro.peca1)
         {
             return 1;
         }
     }
     else
     {
-        if (tabuleiro.posicoes[y][x] == '0')
+        if (tabuleiro.posicoes[y][x] == tabuleiro.peca2)
         {
             return 1;
         }
@@ -115,7 +115,7 @@ int EstaMarcadaPosicaoPecaTabuleiro(tTabuleiro tabuleiro, int x, int y, int peca
  */
 int EstaLivrePosicaoTabuleiro(tTabuleiro tabuleiro, int x, int y)
 {
-    if (tabuleiro.posicoes[y][x] == '-')
+    if (tabuleiro.posicoes[y][x] == tabuleiro.pecaVazio)
     {
         return 1;
     }

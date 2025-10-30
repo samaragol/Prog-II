@@ -1,0 +1,4 @@
+main.c: In function ‘main’:
+main.c:12:29: warning: unused variable ‘morador’ [-Wunused-variable]
+   12 |     Morador moradores[100], morador;
+      |                             ^~~~~~~
