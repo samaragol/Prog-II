@@ -34,7 +34,6 @@ tTabuleiro JogaJogador(tJogador jogador, tTabuleiro tabuleiro)
     while (1)
     {
         printf("Jogador %d\n", jogador.id);
-    
 
         jogada = LeJogada();
 
@@ -63,4 +62,54 @@ tTabuleiro JogaJogador(tJogador jogador, tTabuleiro tabuleiro)
  *
  * @return 1 se o jogador venceu, 0 caso contrário.
  */
-int VenceuJogador(tJogador jogador, tTabuleiro tabuleiro);
+int VenceuJogador(tJogador jogador, tTabuleiro tabuleiro)
+{
+    // int i, j, contador = 0, linha[] = {-1, -1, -1, -1, -1}, coluna[] = {-1, -1, -1, -1, -1}, ig_lin = 1, ig_col = 1, ig_dia_e = 1, ig_dia_d = 1;
+
+    // for (i = 0; i < TAM_TABULEIRO; i++)
+    // {
+    //     for (j = 0; j < TAM_TABULEIRO; j++)
+    //     {
+    //         if (EstaMarcadaPosicaoPecaTabuleiro(tabuleiro, i, j, jogador.id))
+    //         {
+    //             linha[contador] = i;
+    //             coluna[contador] = j;
+    //             contador++;
+    //         }
+    //     }
+    // }
+
+    // if (contador >= 3)
+    // {
+    //     for (i = 1; i < contador; i++)
+    //     {
+    //         if (linha[i - 1] != linha[i])
+    //         {
+    //             ig_lin = 0;
+    //         }
+    //         if (coluna[i - 1] != coluna[i])
+    //         {
+    //             ig_col = 0;
+    //         }
+    //     }
+
+    //     for (i = 0, j = contador - 1; i < contador; i++, j--)
+    //     {
+    //         if (linha[i] != coluna[i])
+    //         {
+    //             ig_dia_e = 0;
+    //         }
+    //         if (linha[i] != i || coluna[j] != j)
+    //         {
+    //             ig_dia_d = 0;
+    //         }
+    //     }
+
+    //     if (ig_lin || ig_col || ig_dia_e || ig_dia_d)
+    //     {
+    //         return 1;
+    //     }
+    // }
+
+    // return 0;
+}
