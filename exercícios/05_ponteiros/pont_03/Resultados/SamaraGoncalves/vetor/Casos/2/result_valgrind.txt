@@ -1,0 +1,51 @@
+==44316== Memcheck, a memory error detector
+==44316== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==44316== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==44316== Command: Resultados/SamaraGoncalves/vetor/prog Resultados/SamaraGoncalves/vetor/Casos/2
+==44316== Parent PID: 44315
+==44316== 
+==44316== Conditional jump or move depends on uninitialised value(s)
+==44316==    at 0x10942C: TrocaSeAcharMenor (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/vetor/prog)
+==44316==    by 0x1094CF: OrdeneCrescente (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/vetor/prog)
+==44316==    by 0x1092E0: main (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/vetor/prog)
+==44316== 
+==44316== Conditional jump or move depends on uninitialised value(s)
+==44316==    at 0x48D40CB: __printf_buffer (vfprintf-process-arg.c:58)
+==44316==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==44316==    by 0x48CA1B2: printf (printf.c:33)
+==44316==    by 0x1093CF: ImprimeDadosDoVetor (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/vetor/prog)
+==44316==    by 0x1092F1: main (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/vetor/prog)
+==44316== 
+==44316== Use of uninitialised value of size 8
+==44316==    at 0x48C90BB: _itoa_word (_itoa.c:183)
+==44316==    by 0x48D3C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==44316==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==44316==    by 0x48CA1B2: printf (printf.c:33)
+==44316==    by 0x1093CF: ImprimeDadosDoVetor (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/vetor/prog)
+==44316==    by 0x1092F1: main (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/vetor/prog)
+==44316== 
+==44316== Conditional jump or move depends on uninitialised value(s)
+==44316==    at 0x48C90CC: _itoa_word (_itoa.c:183)
+==44316==    by 0x48D3C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==44316==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==44316==    by 0x48CA1B2: printf (printf.c:33)
+==44316==    by 0x1093CF: ImprimeDadosDoVetor (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/vetor/prog)
+==44316==    by 0x1092F1: main (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/vetor/prog)
+==44316== 
+==44316== Conditional jump or move depends on uninitialised value(s)
+==44316==    at 0x48D3D85: __printf_buffer (vfprintf-process-arg.c:186)
+==44316==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==44316==    by 0x48CA1B2: printf (printf.c:33)
+==44316==    by 0x1093CF: ImprimeDadosDoVetor (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/vetor/prog)
+==44316==    by 0x1092F1: main (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/vetor/prog)
+==44316== 
+==44316== Conditional jump or move depends on uninitialised value(s)
+==44316==    at 0x48D3D89: __printf_buffer (vfprintf-process-arg.c:186)
+==44316==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==44316==    by 0x48CA1B2: printf (printf.c:33)
+==44316==    by 0x1093CF: ImprimeDadosDoVetor (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/vetor/prog)
+==44316==    by 0x1092F1: main (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/vetor/prog)
+==44316== 
+==44316== Conditional jump or move depends on uninitialised value(s)
+==44316==    at 0x109303: main (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/vetor/prog)
+==44316== 

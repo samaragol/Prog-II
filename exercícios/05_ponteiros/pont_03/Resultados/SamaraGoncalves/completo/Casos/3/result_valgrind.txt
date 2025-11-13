@@ -1,0 +1,58 @@
+==43510== Memcheck, a memory error detector
+==43510== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==43510== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==43510== Command: Resultados/SamaraGoncalves/completo/prog Resultados/SamaraGoncalves/completo/Casos/3
+==43510== Parent PID: 43509
+==43510== 
+==43510== Conditional jump or move depends on uninitialised value(s)
+==43510==    at 0x10940A: TrocaSeAcharMenor (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/completo/prog)
+==43510==    by 0x1094AD: OrdeneCrescente (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/completo/prog)
+==43510==    by 0x1092C7: main (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/completo/prog)
+==43510== 
+==43510== Conditional jump or move depends on uninitialised value(s)
+==43510==    at 0x48D40CB: __printf_buffer (vfprintf-process-arg.c:58)
+==43510==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==43510==    by 0x48CA1B2: printf (printf.c:33)
+==43510==    by 0x1093AD: ImprimeDadosDoVetor (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/completo/prog)
+==43510==    by 0x1092D8: main (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/completo/prog)
+==43510== 
+==43510== Use of uninitialised value of size 8
+==43510==    at 0x48C90BB: _itoa_word (_itoa.c:183)
+==43510==    by 0x48D3C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==43510==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==43510==    by 0x48CA1B2: printf (printf.c:33)
+==43510==    by 0x1093AD: ImprimeDadosDoVetor (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/completo/prog)
+==43510==    by 0x1092D8: main (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/completo/prog)
+==43510== 
+==43510== Conditional jump or move depends on uninitialised value(s)
+==43510==    at 0x48C90CC: _itoa_word (_itoa.c:183)
+==43510==    by 0x48D3C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==43510==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==43510==    by 0x48CA1B2: printf (printf.c:33)
+==43510==    by 0x1093AD: ImprimeDadosDoVetor (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/completo/prog)
+==43510==    by 0x1092D8: main (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/completo/prog)
+==43510== 
+==43510== Conditional jump or move depends on uninitialised value(s)
+==43510==    at 0x48D3D85: __printf_buffer (vfprintf-process-arg.c:186)
+==43510==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==43510==    by 0x48CA1B2: printf (printf.c:33)
+==43510==    by 0x1093AD: ImprimeDadosDoVetor (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/completo/prog)
+==43510==    by 0x1092D8: main (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/completo/prog)
+==43510== 
+==43510== Conditional jump or move depends on uninitialised value(s)
+==43510==    at 0x48D3D89: __printf_buffer (vfprintf-process-arg.c:186)
+==43510==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==43510==    by 0x48CA1B2: printf (printf.c:33)
+==43510==    by 0x1093AD: ImprimeDadosDoVetor (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/completo/prog)
+==43510==    by 0x1092D8: main (in /home/sgoliveira/Prog/Prog-II/exercícios/05_ponteiros/pont_03/Resultados/SamaraGoncalves/completo/prog)
+==43510== 
+==43510== 
+==43510== HEAP SUMMARY:
+==43510==     in use at exit: 0 bytes in 0 blocks
+==43510==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==43510== 
+==43510== All heap blocks were freed -- no leaks are possible
+==43510== 
+==43510== Use --track-origins=yes to see where uninitialised values come from
+==43510== For lists of detected and suppressed errors, rerun with: -s
+==43510== ERROR SUMMARY: 178 errors from 6 contexts (suppressed: 0 from 0)
