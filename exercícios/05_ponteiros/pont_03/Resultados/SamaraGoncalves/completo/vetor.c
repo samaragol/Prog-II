@@ -17,6 +17,7 @@ void LeDadosParaVetor(int *vet, int tam)
     {
         scanf("%d", &vet[i]);
     }
+    scanf("\n");
 }
 
 /**
@@ -54,8 +55,6 @@ void TrocaSeAcharMenor(int *vet, int tam, int *paraTrocar)
 {
     int i, aux;
 
-    aux = vet[0];
-
     for (i = 0; i < tam; i++)
     {
         if (vet[i] < *paraTrocar)
@@ -79,8 +78,8 @@ void OrdeneCrescente(int *vet, int tam)
 {
     int i;
 
-    for (i = 0; i < tam - 1; i++)
+    for (i = 0; i < tam; i++)
     {
-        TrocaSeAcharMenor(vet + i, tam - 1, vet + i);
+        TrocaSeAcharMenor(vet + i, tam - i, vet + i);
     }
 }
