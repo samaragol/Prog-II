@@ -1,0 +1,4 @@
+main.c: In function ‘main’:
+main.c:16:43: warning: unused variable ‘rebeliao’ [-Wunused-variable]
+   16 |     int nRecintos, capacidade, fome, idx, rebeliao = 0;
+      |                                           ^~~~~~~~

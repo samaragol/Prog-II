@@ -1,9 +1,0 @@
-/usr/bin/ld: Resultados/SamaraGoncalves/tZoologico/main.o: na função "ImprimeMenu":
-main.c:(.text+0x18): undefined reference to `GetNome'
-/usr/bin/ld: Resultados/SamaraGoncalves/tZoologico/main.o: na função "main":
-main.c:(.text+0x125): undefined reference to `CriaZoologico'
-/usr/bin/ld: main.c:(.text+0x22d): undefined reference to `AdicionaAnimalZoologico'
-/usr/bin/ld: main.c:(.text+0x281): undefined reference to `PassaDiaZoologico'
-/usr/bin/ld: main.c:(.text+0x2e0): undefined reference to `FugaRecintoZoologico'
-/usr/bin/ld: main.c:(.text+0x30b): undefined reference to `EncerraZoologico'
-collect2: error: ld returned 1 exit status

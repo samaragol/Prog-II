@@ -1,10 +1,10 @@
 Arquivos Esperados Corretos: 7 de 7
 Pastas Compiladas Corretamente: 4 de 4 
-Pastas Linkadas Corretamente: 2 de 4
+Pastas Linkadas Corretamente: 4 de 4
 Teste main
-  - Resultados corretos: 0 de 6
-  - Valgrinds corretos: 0 de 6
-Nota de SamaraGoncalves para o teste main: 0
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de SamaraGoncalves para o teste main: 2.50
 Teste tAnimal
   - Resultados corretos: 6 de 6
   - Valgrinds corretos: 6 de 6
@@ -14,8 +14,8 @@ Teste tRecinto
   - Valgrinds corretos: 6 de 6
 Nota de SamaraGoncalves para o teste tRecinto: 2.50
 Teste tZoologico
-  - Resultados corretos: 0 de 6
-  - Valgrinds corretos: 0 de 6
-Nota de SamaraGoncalves para o teste tZoologico: 0
-Nota de SamaraGoncalves: 0+(2.50)+(2.50)+(0)+(0)
-Nota de SamaraGoncalves: 5.00
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de SamaraGoncalves para o teste tZoologico: 2.50
+Nota de SamaraGoncalves: 0+(2.50)+(2.50)+(2.50)+(2.50)
+Nota de SamaraGoncalves: 10.00
