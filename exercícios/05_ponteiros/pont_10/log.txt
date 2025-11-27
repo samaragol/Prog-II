@@ -52,38 +52,41 @@ COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
 LINKANDO OS ARQUIVOS COMPILADOS:
  - Pasta main:
  - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/SamaraGoncalves/main/result_linking.txt
  - Pasta completo:
  - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/SamaraGoncalves/completo/result_linking.txt
  - Pasta pessoa:
  - Gerando o binário prog linkando com o(s) arquivo(s) pessoa/*.o
  - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/SamaraGoncalves/pessoa/result_linking.txt
- - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta main (máximo 3.33) - 0 de 20 - 0% de 3.33: 0.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 3.33) - 20.00 de 20 - 100.00% de 3.33: 3.33.
  -----
  - Pasta completo / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta completo (máximo 3.34) - 0 de 20 - 0% de 3.34: 0.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 3.34) - 20.00 de 20 - 100.00% de 3.34: 3.34.
  -----
  - Pasta pessoa / Caso 1:
  - Arquivo de output gerado: Resultados/SamaraGoncalves/pessoa/Casos/1/result_valgrind.txt.
@@ -106,21 +109,21 @@ RESULTADOS FINAIS
 Aluno: SamaraGoncalves
  - Arquivos Esperados Corretos: 3 de 3
  - Pastas Compiladas Corretamente: 3 de 3 
- - Pastas Linkadas Corretamente: 1 de 3
+ - Pastas Linkadas Corretamente: 3 de 3
  - Teste main
- - Resultados corretos: 0 de 2
- - Valgrinds corretos: 0 de 2
- - Nota de SamaraGoncalves para o teste main: 0
+ - Resultados corretos: 2 de 2
+ - Valgrinds corretos: 2 de 2
+ - Nota de SamaraGoncalves para o teste main: 3.33
  - Teste completo
- - Resultados corretos: 0 de 2
- - Valgrinds corretos: 0 de 2
- - Nota de SamaraGoncalves para o teste completo: 0
+ - Resultados corretos: 2 de 2
+ - Valgrinds corretos: 2 de 2
+ - Nota de SamaraGoncalves para o teste completo: 3.34
  - Teste pessoa
  - Resultados corretos: 2 de 2
  - Valgrinds corretos: 2 de 2
  - Nota de SamaraGoncalves para o teste pessoa: 3.33
- - Nota de SamaraGoncalves: 0+(0)+(0)+(3.33)
- - Nota de SamaraGoncalves: 3.33
+ - Nota de SamaraGoncalves: 0+(3.33)+(3.34)+(3.33)
+ - Nota de SamaraGoncalves: 10.00
 
 ----------------------------------------------------------------------------
 
