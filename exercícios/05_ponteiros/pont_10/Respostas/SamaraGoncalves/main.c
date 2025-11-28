@@ -19,4 +19,6 @@ int main()
     {
         ImprimePessoa(&pessoas[i]);
     }
+    
+    return 0;
 }
