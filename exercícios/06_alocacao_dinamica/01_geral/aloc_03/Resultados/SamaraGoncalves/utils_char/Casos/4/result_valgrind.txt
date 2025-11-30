@@ -4,3 +4,12 @@
 ==60051== Command: Resultados/SamaraGoncalves/utils_char/prog Resultados/SamaraGoncalves/utils_char/Casos/4
 ==60051== Parent PID: 60050
 ==60051== 
+==60051== 
+==60051== HEAP SUMMARY:
+==60051==     in use at exit: 0 bytes in 0 blocks
+==60051==   total heap usage: 3 allocs, 3 frees, 8,342 bytes allocated
+==60051== 
+==60051== All heap blocks were freed -- no leaks are possible
+==60051== 
+==60051== For lists of detected and suppressed errors, rerun with: -s
+==60051== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
