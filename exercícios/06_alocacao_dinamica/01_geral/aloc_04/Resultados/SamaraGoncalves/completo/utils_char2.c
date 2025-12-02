@@ -11,17 +11,17 @@
  */
 char *CriaVetorTamPadrao()
 {
-    int i;
+    int i, tamvetor = TAM_PADRAO + 1;
     char *vetor;
-    vetor = (char *)calloc(TAM_PADRAO + 1, sizeof(char));
+    vetor = (char *)calloc(tamvetor, sizeof(char));
     if (vetor == NULL)
     {
         printf("Falha na alocação.");
         exit(0);
     }
-    for (i = 0; i < TAM_PADRAO + 1; i++)
+    for (i = 0; i < tamvetor; i++)
     {
-        if (i != TAM_PADRAO)
+        if (i != tamvetor - 1)
         {
             vetor[i] = '_';
         }
@@ -43,16 +43,18 @@ char *CriaVetorTamPadrao()
  */
 char *AumentaTamanhoVetor(char *vetor, int tamanhoantigo)
 {
-    int i, tamanhonovo = tamanhoantigo + TAM_PADRAO + 1;
-    vetor = (char *)realloc(vetor, tamanhonovo * sizeof(char));
+    int i, tam;
+    tam = tamanhoantigo;
+    tamanhoantigo = tamanhoantigo + TAM_PADRAO;
+    vetor = (char *)realloc(vetor, tamanhoantigo * sizeof(char));
     if (vetor == NULL)
     {
         printf("Falha na alocação.");
         exit(0);
     }
-    for (i = tamanhoantigo; i < tamanhonovo; i++)
+    for (i = tam + 1; i < tamanhoantigo; i++)
     {
-        if (i != tamanhonovo - 1)
+        if (i != tamanhoantigo - 1)
         {
             vetor[i] = '_';
         }
@@ -76,18 +78,27 @@ char *AumentaTamanhoVetor(char *vetor, int tamanhoantigo)
 char *LeVetor(char *vetor, int *tamanho)
 {
     int i = 0;
-    char letra;
+    char letra = 'o';
+    *tamanho += 1;
 
-    while (scanf("%c", &letra) == 1 && letra != '\n')
+    while (1)
     {
-        vetor[i] = letra;
-        i++;
+        scanf("%c", &letra);
+        if (letra == '\n')
+        {
+            break;
+        }
+
         if (i >= *tamanho)
         {
             vetor = AumentaTamanhoVetor(vetor, *tamanho);
+            *tamanho += TAM_PADRAO;
         }
+
+        vetor[i] = letra;
+
+        i++;
     }
-    vetor[i] = '\0';
 
     return vetor;
 }
