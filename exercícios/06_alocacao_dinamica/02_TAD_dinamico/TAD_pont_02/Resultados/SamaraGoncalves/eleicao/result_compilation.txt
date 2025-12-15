@@ -1,0 +1,114 @@
+eleicao.c: In function ‘ImprimeResultadoEleicao’:
+eleicao.c:140:83: warning: passing argument 1 of ‘ObtemVotoPresidente’ from incompatible pointer type [-Wincompatible-pointer-types]
+  140 |             if (VerificaIdCandidato(&eleicao->presidentes[i], ObtemVotoPresidente(&eleicao->eleitores[j])))
+      |                                                                                   ^~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                   |
+      |                                                                                   tEleitor **
+In file included from eleicao.c:5:
+eleitor.h:34:35: note: expected ‘tEleitor *’ but argument is of type ‘tEleitor **’
+   34 | int ObtemVotoPresidente(tEleitor* eleitor);
+      |                         ~~~~~~~~~~^~~~~~~
+eleicao.c:140:37: warning: passing argument 1 of ‘VerificaIdCandidato’ from incompatible pointer type [-Wincompatible-pointer-types]
+  140 |             if (VerificaIdCandidato(&eleicao->presidentes[i], ObtemVotoPresidente(&eleicao->eleitores[j])))
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                     |
+      |                                     tCandidato **
+In file included from eleicao.c:4:
+candidato.h:39:37: note: expected ‘tCandidato *’ but argument is of type ‘tCandidato **’
+   39 | int VerificaIdCandidato(tCandidato *candidato, int id);
+      |                         ~~~~~~~~~~~~^~~~~~~~~
+eleicao.c:148:84: warning: passing argument 1 of ‘ObtemVotoGovernador’ from incompatible pointer type [-Wincompatible-pointer-types]
+  148 |             if (VerificaIdCandidato(&eleicao->governadores[i], ObtemVotoGovernador(&eleicao->eleitores[j])))
+      |                                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                    |
+      |                                                                                    tEleitor **
+eleitor.h:41:35: note: expected ‘tEleitor *’ but argument is of type ‘tEleitor **’
+   41 | int ObtemVotoGovernador(tEleitor* eleitor);
+      |                         ~~~~~~~~~~^~~~~~~
+eleicao.c:148:37: warning: passing argument 1 of ‘VerificaIdCandidato’ from incompatible pointer type [-Wincompatible-pointer-types]
+  148 |             if (VerificaIdCandidato(&eleicao->governadores[i], ObtemVotoGovernador(&eleicao->eleitores[j])))
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                     |
+      |                                     tCandidato **
+candidato.h:39:37: note: expected ‘tCandidato *’ but argument is of type ‘tCandidato **’
+   39 | int VerificaIdCandidato(tCandidato *candidato, int id);
+      |                         ~~~~~~~~~~~~^~~~~~~~~
+eleicao.c:158:34: warning: passing argument 1 of ‘ObtemVotoPresidente’ from incompatible pointer type [-Wincompatible-pointer-types]
+  158 |     maiorP = ObtemVotoPresidente(&eleicao->presidentes[0]);
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                  |
+      |                                  tCandidato **
+eleitor.h:34:35: note: expected ‘tEleitor *’ but argument is of type ‘tCandidato **’
+   34 | int ObtemVotoPresidente(tEleitor* eleitor);
+      |                         ~~~~~~~~~~^~~~~~~
+eleicao.c:161:19: warning: comparison between pointer and integer
+  161 |     for (i = 1; i < eleicao->presidentes; i++)
+      |                   ^
+eleicao.c:163:33: warning: passing argument 1 of ‘ObtemVotoPresidente’ from incompatible pointer type [-Wincompatible-pointer-types]
+  163 |         if (ObtemVotoPresidente(&eleicao->presidentes[i]) > maiorP)
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 tCandidato **
+eleitor.h:34:35: note: expected ‘tEleitor *’ but argument is of type ‘tCandidato **’
+   34 | int ObtemVotoPresidente(tEleitor* eleitor);
+      |                         ~~~~~~~~~~^~~~~~~
+eleicao.c:165:62: warning: passing argument 1 of ‘ObtemVotoPresidente’ from incompatible pointer type [-Wincompatible-pointer-types]
+  165 |             maiorP = ObtemVotoPresidente(eleicao->presidentes[i]);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~
+      |                                                              |
+      |                                                              tCandidato *
+eleitor.h:34:35: note: expected ‘tEleitor *’ but argument is of type ‘tCandidato *’
+   34 | int ObtemVotoPresidente(tEleitor* eleitor);
+      |                         ~~~~~~~~~~^~~~~~~
+eleicao.c:170:19: warning: comparison between pointer and integer
+  170 |     for (i = 1; i < eleicao->presidentes; i++)
+      |                   ^
+eleicao.c:172:33: warning: passing argument 1 of ‘ObtemVotoPresidente’ from incompatible pointer type [-Wincompatible-pointer-types]
+  172 |         if (ObtemVotoPresidente(&eleicao->presidentes[i]) == maiorP)
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 tCandidato **
+eleitor.h:34:35: note: expected ‘tEleitor *’ but argument is of type ‘tCandidato **’
+   34 | int ObtemVotoPresidente(tEleitor* eleitor);
+      |                         ~~~~~~~~~~^~~~~~~
+eleicao.c:178:34: warning: passing argument 1 of ‘ObtemVotoGovernador’ from incompatible pointer type [-Wincompatible-pointer-types]
+  178 |     maiorG = ObtemVotoGovernador(&eleicao->governadores[0]);
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                  |
+      |                                  tCandidato **
+eleitor.h:41:35: note: expected ‘tEleitor *’ but argument is of type ‘tCandidato **’
+   41 | int ObtemVotoGovernador(tEleitor* eleitor);
+      |                         ~~~~~~~~~~^~~~~~~
+eleicao.c:181:19: warning: comparison between pointer and integer
+  181 |     for (i = 1; i < eleicao->governadores; i++)
+      |                   ^
+eleicao.c:183:33: warning: passing argument 1 of ‘ObtemVotoGovernador’ from incompatible pointer type [-Wincompatible-pointer-types]
+  183 |         if (ObtemVotoGovernador(&eleicao->governadores[i]) > maiorG)
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 tCandidato **
+eleitor.h:41:35: note: expected ‘tEleitor *’ but argument is of type ‘tCandidato **’
+   41 | int ObtemVotoGovernador(tEleitor* eleitor);
+      |                         ~~~~~~~~~~^~~~~~~
+eleicao.c:185:42: warning: passing argument 1 of ‘ObtemVotoGovernador’ from incompatible pointer type [-Wincompatible-pointer-types]
+  185 |             maiorG = ObtemVotoGovernador(&eleicao->governadores[i]);
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          tCandidato **
+eleitor.h:41:35: note: expected ‘tEleitor *’ but argument is of type ‘tCandidato **’
+   41 | int ObtemVotoGovernador(tEleitor* eleitor);
+      |                         ~~~~~~~~~~^~~~~~~
+eleicao.c:190:19: warning: comparison between pointer and integer
+  190 |     for (i = 1; i < eleicao->governadores; i++)
+      |                   ^
+eleicao.c:192:33: warning: passing argument 1 of ‘ObtemVotoGovernador’ from incompatible pointer type [-Wincompatible-pointer-types]
+  192 |         if (ObtemVotoGovernador(&eleicao->governadores[i]) == maiorG)
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 tCandidato **
+eleitor.h:41:35: note: expected ‘tEleitor *’ but argument is of type ‘tCandidato **’
+   41 | int ObtemVotoGovernador(tEleitor* eleitor);
+      |                         ~~~~~~~~~~^~~~~~~
+eleicao.c:133:9: warning: variable ‘qtdNulos’ set but not used [-Wunused-but-set-variable]
+  133 |     int qtdNulos = 0, qtdVotosP = 0, qtdVotosG = 0, i, j, maiorG = 0, maiorP = 0, empateG = 0, empateP = 0;
+      |         ^~~~~~~~

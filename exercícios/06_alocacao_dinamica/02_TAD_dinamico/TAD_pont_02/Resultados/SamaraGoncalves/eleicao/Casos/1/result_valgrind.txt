@@ -1,0 +1,62 @@
+==12699== Memcheck, a memory error detector
+==12699== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==12699== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==12699== Command: Resultados/SamaraGoncalves/eleicao/prog Resultados/SamaraGoncalves/eleicao/Casos/1
+==12699== Parent PID: 12698
+==12699== 
+==12699== Invalid write of size 8
+==12699==    at 0x109563: InicializaEleicao (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==    by 0x109E10: main (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==  Address 0x4a7f0d8 is 0 bytes after a block of size 24 alloc'd
+==12699==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12699==    by 0x1094D2: InicializaEleicao (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==    by 0x109E10: main (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699== 
+==12699== Invalid read of size 4
+==12699==    at 0x109399: VerificaIdCandidato (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==    by 0x1098BA: ImprimeResultadoEleicao (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==    by 0x109E2C: main (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==  Address 0x4a7f0dc is 4 bytes after a block of size 24 alloc'd
+==12699==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12699==    by 0x1094D2: InicializaEleicao (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==    by 0x109E10: main (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699== 
+==12699== Invalid read of size 4
+==12699==    at 0x1093E9: IncrementaVotoCandidato (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==    by 0x1098E0: ImprimeResultadoEleicao (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==    by 0x109E2C: main (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==  Address 0x18 is not stack'd, malloc'd or (recently) free'd
+==12699== 
+==12699== 
+==12699== Process terminating with default action of signal 11 (SIGSEGV)
+==12699==  Access not within mapped region at address 0x18
+==12699==    at 0x1093E9: IncrementaVotoCandidato (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==    by 0x1098E0: ImprimeResultadoEleicao (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==    by 0x109E2C: main (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==  If you believe this happened as a result of a stack
+==12699==  overflow in your program's main thread (unlikely but
+==12699==  possible), you can try to increase the size of the
+==12699==  main thread stack using the --main-stacksize= flag.
+==12699==  The main thread stack size used in this run was 8388608.
+==12699== 
+==12699== HEAP SUMMARY:
+==12699==     in use at exit: 4,768 bytes in 26 blocks
+==12699==   total heap usage: 26 allocs, 0 frees, 4,768 bytes allocated
+==12699== 
+==12699== 218 (96 direct, 122 indirect) bytes in 3 blocks are definitely lost in loss record 11 of 12
+==12699==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12699==    by 0x1091DA: CriaCandidato (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==    by 0x109527: InicializaEleicao (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699==    by 0x109E10: main (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==12699== 
+==12699== LEAK SUMMARY:
+==12699==    definitely lost: 96 bytes in 3 blocks
+==12699==    indirectly lost: 122 bytes in 6 blocks
+==12699==      possibly lost: 0 bytes in 0 blocks
+==12699==    still reachable: 4,550 bytes in 17 blocks
+==12699==         suppressed: 0 bytes in 0 blocks
+==12699== Reachable blocks (those to which a pointer was found) are not shown.
+==12699== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12699== 
+==12699== For lists of detected and suppressed errors, rerun with: -s
+==12699== ERROR SUMMARY: 5 errors from 4 contexts (suppressed: 0 from 0)

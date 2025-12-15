@@ -23,7 +23,7 @@ tCandidato *CriaCandidato()
 {
     tCandidato *cand;
 
-    cand = (tCandidato*)calloc(1, sizeof(tCandidato));
+    cand = (tCandidato*)malloc(sizeof(tCandidato));
 
     cand->nome = NULL;
     cand->partido = NULL;

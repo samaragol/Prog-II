@@ -1,0 +1,53 @@
+==14500== Memcheck, a memory error detector
+==14500== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==14500== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==14500== Command: Resultados/SamaraGoncalves/eleicao/prog Resultados/SamaraGoncalves/eleicao/Casos/6
+==14500== Parent PID: 14499
+==14500== 
+==14500== Invalid write of size 8
+==14500==    at 0x109563: InicializaEleicao (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==14500==    by 0x109E10: main (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==14500==  Address 0x4a7f0d8 is 0 bytes after a block of size 24 alloc'd
+==14500==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14500==    by 0x1094D2: InicializaEleicao (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==14500==    by 0x109E10: main (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==14500== 
+==14500== Invalid read of size 4
+==14500==    at 0x1093E9: IncrementaVotoCandidato (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==14500==    by 0x1098E0: ImprimeResultadoEleicao (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==14500==    by 0x109E2C: main (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==14500==  Address 0x18 is not stack'd, malloc'd or (recently) free'd
+==14500== 
+==14500== 
+==14500== Process terminating with default action of signal 11 (SIGSEGV)
+==14500==  Access not within mapped region at address 0x18
+==14500==    at 0x1093E9: IncrementaVotoCandidato (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==14500==    by 0x1098E0: ImprimeResultadoEleicao (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==14500==    by 0x109E2C: main (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==14500==  If you believe this happened as a result of a stack
+==14500==  overflow in your program's main thread (unlikely but
+==14500==  possible), you can try to increase the size of the
+==14500==  main thread stack using the --main-stacksize= flag.
+==14500==  The main thread stack size used in this run was 8388608.
+==14500== 
+==14500== HEAP SUMMARY:
+==14500==     in use at exit: 4,804 bytes in 29 blocks
+==14500==   total heap usage: 29 allocs, 0 frees, 4,804 bytes allocated
+==14500== 
+==14500== 295 (128 direct, 167 indirect) bytes in 4 blocks are definitely lost in loss record 11 of 12
+==14500==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14500==    by 0x1091DA: CriaCandidato (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==14500==    by 0x109527: InicializaEleicao (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==14500==    by 0x109E10: main (in /home/sgoliveira/Prog/Prog-II/exercícios/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/SamaraGoncalves/eleicao/prog)
+==14500== 
+==14500== LEAK SUMMARY:
+==14500==    definitely lost: 128 bytes in 4 blocks
+==14500==    indirectly lost: 167 bytes in 8 blocks
+==14500==      possibly lost: 0 bytes in 0 blocks
+==14500==    still reachable: 4,509 bytes in 17 blocks
+==14500==         suppressed: 0 bytes in 0 blocks
+==14500== Reachable blocks (those to which a pointer was found) are not shown.
+==14500== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==14500== 
+==14500== For lists of detected and suppressed errors, rerun with: -s
+==14500== ERROR SUMMARY: 4 errors from 3 contexts (suppressed: 0 from 0)
