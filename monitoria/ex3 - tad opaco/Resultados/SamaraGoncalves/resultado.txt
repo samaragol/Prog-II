@@ -1,17 +1,17 @@
 Arquivos Esperados Corretos: 5 de 5
 Pastas Compiladas Corretamente: 3 de 3 
-Pastas Linkadas Corretamente: 2 de 3
+Pastas Linkadas Corretamente: 3 de 3
 Teste main
-  - Resultados corretos: 0 de 4
-  - Valgrinds corretos: 0 de 4
-Nota de SamaraGoncalves para o teste main: 0
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
+Nota de SamaraGoncalves para o teste main: 2.00
 Teste musica
   - Resultados corretos: 4 de 4
   - Valgrinds corretos: 4 de 4
 Nota de SamaraGoncalves para o teste musica: 4.00
 Teste playlist
-  - Resultados corretos: 0 de 4
+  - Resultados corretos: 4 de 4
   - Valgrinds corretos: 4 de 4
-Nota de SamaraGoncalves para o teste playlist: 0
-Nota de SamaraGoncalves: 0+(0)+(4.00)+(0)
-Nota de SamaraGoncalves: 4.00
+Nota de SamaraGoncalves para o teste playlist: 4.00
+Nota de SamaraGoncalves: 0+(4.00)+(4.00)+(2.00)
+Nota de SamaraGoncalves: 10.00

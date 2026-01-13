@@ -54,7 +54,7 @@ void leMusica(Musica *music)
  */
 int comparaMusicas(Musica *music_1, Musica *music_2)
 {
-    if (comparaNomeMus(music_1, music_2->nome))
+    if (comparaNomeMus(music_1, music_2->nome) && comparaArtistaMus(music_1, music_2->artista))
     {
         return 1;
     }

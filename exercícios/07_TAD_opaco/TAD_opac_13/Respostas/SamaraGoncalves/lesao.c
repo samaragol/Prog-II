@@ -1,13 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "lesao.h"
 
-#ifndef _LESAO_H
-#define _LESAO_H
+// #define MAX_CARTAO_LES 19
+// #define MAX_ID_LES 11
+// #define MAX_DIAG_LES 101
+// #define MAX_REG_LES 101
 
-#define MAX_CARTAO_LES 19
-#define MAX_ID_LES 11
-#define MAX_DIAG_LES 101
-#define MAX_REG_LES 101
+// typedef struct Lesao Lesao;
 
-typedef struct Lesao Lesao;
+struct Lesao
+{
+    char id[MAX_ID_LES];
+    char diag[MAX_DIAG_LES];
+    char reg[MAX_REG_LES];
+    int malig;
+};
 
 /*
 Função que cria uma lesão a partir dos parâmetros fornecidos.
@@ -18,7 +26,10 @@ Função que cria uma lesão a partir dos parâmetros fornecidos.
 @param malignidade: Indicador de malignidade (1 para maligna, 0 para benigna).
 @return Ponteiro para a lesão criada.
 */
-Lesao *criaLesao(char *cartaoSus, char *id, char *diagnostico, char *regiao, int malignidade);
+Lesao *criaLesao(char *cartaoSus, char *id, char *diagnostico, char *regiao, int malignidade)
+{
+     
+}
 
 /*
 Função que lê os dados de uma lesão a partir da entrada padrão. Consulte o enunciado e/ou os casos de teste para o formato esperado.
@@ -51,5 +62,3 @@ Função que libera a memória alocada para uma lesão.
 @param l: Ponteiro para a lesão a ser liberada.
 */
 void liberaLesao(Lesao *l);
-
-#endif

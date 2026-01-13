@@ -1,15 +1,15 @@
-==4715== Memcheck, a memory error detector
-==4715== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==4715== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==4715== Command: Resultados/SamaraGoncalves/musica/prog Resultados/SamaraGoncalves/musica/Casos/4
-==4715== Parent PID: 4714
-==4715== 
-==4715== 
-==4715== HEAP SUMMARY:
-==4715==     in use at exit: 0 bytes in 0 blocks
-==4715==   total heap usage: 55 allocs, 55 frees, 14,646 bytes allocated
-==4715== 
-==4715== All heap blocks were freed -- no leaks are possible
-==4715== 
-==4715== For lists of detected and suppressed errors, rerun with: -s
-==4715== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==39623== Memcheck, a memory error detector
+==39623== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==39623== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==39623== Command: Resultados/SamaraGoncalves/musica/prog Resultados/SamaraGoncalves/musica/Casos/4
+==39623== Parent PID: 39622
+==39623== 
+==39623== 
+==39623== HEAP SUMMARY:
+==39623==     in use at exit: 0 bytes in 0 blocks
+==39623==   total heap usage: 55 allocs, 55 frees, 14,646 bytes allocated
+==39623== 
+==39623== All heap blocks were freed -- no leaks are possible
+==39623== 
+==39623== For lists of detected and suppressed errors, rerun with: -s
+==39623== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

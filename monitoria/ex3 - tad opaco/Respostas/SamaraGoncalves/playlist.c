@@ -7,7 +7,7 @@
 struct playlist
 {
     char nomePlay[MAX_TAM_STRING];
-    char **musicas;
+    Musica *musicas[TAM_MAX_MUSICAS];
     int qtdMusicas;
 };
 
@@ -17,10 +17,20 @@ struct playlist
 Playlist *criaPlaylist(char *name)
 {
     Playlist *play;
-    play = (Playlist *)calloc(1, sizeof(play));
-    play->musicas = (Musica **)calloc(TAM_MAX_MUSICAS, sizeof(Musica *));
-    strcpy(play->nomePlay, name);
-    play->qtdMusicas = 0;
+    play = (Playlist *)calloc(1, sizeof(Playlist));
+
+    // boas práticas
+    if (!play)
+    {
+        printf("Falha na criação da playlist.\n");
+        exit(1);
+    }
+
+    if (name)
+    {
+        strncpy(play->nomePlay, name, MAX_TAM_STRING - 1);
+    }
+
     return play;
 }
 
@@ -32,10 +42,22 @@ void adicionaMusica(Playlist *playlist)
 {
     Musica *mus;
 
-    mus = criaMusica();
-    leMusica(mus);
-    playlist->musicas[playlist->qtdMusicas] = mus;
-    playlist->qtdMusicas++;
+    if (playlist->qtdMusicas < TAM_MAX_MUSICAS)
+    {
+        mus = criaMusica();
+        if (!mus)
+        {
+            printf("Erro na função criaMusica.\n");
+            exit(1);
+        }
+        leMusica(mus);
+        playlist->musicas[playlist->qtdMusicas] = mus;
+        playlist->qtdMusicas++;
+    }
+    else
+    {
+        printf("PLAYLIST CHEIA!\n");
+    }
 }
 
 /**
@@ -47,20 +69,50 @@ void adicionaMusica(Playlist *playlist)
  */
 int removeMusica(Playlist *playlist, char *music, compara comparador, tipoImpressaoMusica impMus)
 {
-    int i;
+    int i, j, flag = 0;
+
+    // programação defensiva
+    if (!playlist || !comparador)
+    {
+        printf("Playlist ou comparador inválido.\n");
+        return 0;
+    }
 
     for (i = 0; i < playlist->qtdMusicas; i++)
     {
-        if (comparador(playlist->musicas[i], music))
+        // se o ponteiro nessa posição não é NULL e for a música correta
+        if (playlist->musicas[i] && comparador(playlist->musicas[i], music))
         {
-            printf("MUSICA REMOVIDA: ");
-            impMus(music);
-            free(playlist->musicas[i]);
-            playlist->qtdMusicas--;
-            return 1;
+            if (impMus)
+            {
+                printf("MUSICA REMOVIDA: ");
+                impMus(playlist->musicas[i]);
+            }
+            else
+            {
+                printf("Função impMus não definida.\n");
+            }
+
+            apagaMusica(playlist->musicas[i]);
+            flag = 1;
+            break;
         }
     }
-    return 0;
+
+    if (!flag)
+    {
+        return 0;
+    }
+
+    for (j = i; j < playlist->qtdMusicas - 1; j++)
+    {
+        playlist->musicas[j] = playlist->musicas[j + 1];
+    }
+
+    playlist->musicas[playlist->qtdMusicas - 1] = NULL;
+    playlist->qtdMusicas--;
+
+    return 1;
 }
 
 /**
@@ -76,14 +128,25 @@ int removeMusica(Playlist *playlist, char *music, compara comparador, tipoImpres
 void impressFunction(Playlist *playlist, char *key, compara comparador, tipoImpressaoMusica impMus)
 {
     int i;
+    printf("---------------------------------------\n");
+
+    if (key)
+    {
+        printf("%s\n\n", key);
+    }
+    else
+    {
+        printf("%s\n\n", playlist->nomePlay);
+    }
 
     for (i = 0; i < playlist->qtdMusicas; i++)
     {
-        if (comparador(playlist->musicas[i], key))
+        if ((!comparador || comparador(playlist->musicas[i], key)) && impMus)
         {
             impMus(playlist->musicas[i]);
         }
     }
+    printf("---------------------------------------\n");
 }
 
 /**
@@ -94,9 +157,17 @@ void apagaPlaylist(Playlist *playlist)
 {
     int i;
 
+    if (!playlist)
+    {
+        printf("Deu ruim aqui.\n");
+    }
+
     for (i = 0; i < playlist->qtdMusicas; i++)
     {
-        free(playlist->musicas[i]);
+        if (playlist->musicas[i])
+        {
+            apagaMusica(playlist->musicas[i]);
+        }
     }
 
     free(playlist);
