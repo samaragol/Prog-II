@@ -1,0 +1,21 @@
+Arquivos Esperados Corretos: 7 de 7
+Pastas Compiladas Corretamente: 4 de 4 
+Pastas Linkadas Corretamente: 4 de 4
+Teste main
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de SamaraGoncalves para o teste main: 1.00
+Teste tecnico
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de SamaraGoncalves para o teste tecnico: 3.00
+Teste ticket
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de SamaraGoncalves para o teste ticket: 4.00
+Teste eletronica
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de SamaraGoncalves para o teste eletronica: 2.00
+Nota de SamaraGoncalves: 0+(3.00)+(4.00)+(1.00)+(2.00)
+Nota de SamaraGoncalves: 10.00

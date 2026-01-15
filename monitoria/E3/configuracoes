@@ -1,0 +1,9 @@
+Arquivos
+    saida.txt=10
+Valgrind
+	desconto=0.5
+Validações
+	main=1
+    tecnico=3
+    ticket=4
+    eletronica=2
