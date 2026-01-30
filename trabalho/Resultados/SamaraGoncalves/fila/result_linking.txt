@@ -1,0 +1,12 @@
+/usr/bin/ld: Resultados/SamaraGoncalves/fila/main.o: na função "processaRelatorio":
+main.c:(.text+0x18be): undefined reference to `getQntdReservaFila'
+/usr/bin/ld: main.c:(.text+0x18cd): undefined reference to `getQntdReservasConfirmadasFila'
+/usr/bin/ld: Resultados/SamaraGoncalves/fila/main.o: na função "main":
+main.c:(.text+0x1f7b): undefined reference to `criaFila'
+/usr/bin/ld: main.c:(.text+0x2373): undefined reference to `insereReservaNaFila'
+/usr/bin/ld: main.c:(.text+0x23e9): undefined reference to `insereReservaNaFila'
+/usr/bin/ld: main.c:(.text+0x2463): undefined reference to `insereReservaNaFila'
+/usr/bin/ld: main.c:(.text+0x24d0): undefined reference to `processaReservasNaFila'
+/usr/bin/ld: main.c:(.text+0x252b): undefined reference to `imprimeFila'
+/usr/bin/ld: main.c:(.text+0x28d0): undefined reference to `desalocaFila'
+collect2: error: ld returned 1 exit status

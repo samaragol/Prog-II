@@ -1,0 +1,34 @@
+executiva.c:54:2: error: #endif without #if
+   54 | #endif // _EXECUTIVA_H_
+      |  ^~~~~
+executiva.c: In function ‘criaExecutiva’:
+executiva.c:21:1: warning: control reaches end of non-void function [-Wreturn-type]
+   21 | }
+      | ^
+reserva.c: In function ‘criaReserva’:
+reserva.c:43:5: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+   43 |     strcpy(res->cpf, cpfPassageiro);
+      |     ^~~~~~
+reserva.c:4:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+    3 | #include "reserva.h"
+  +++ |+#include <string.h>
+    4 | 
+reserva.c:43:5: warning: incompatible implicit declaration of built-in function ‘strcpy’ [-Wbuiltin-declaration-mismatch]
+   43 |     strcpy(res->cpf, cpfPassageiro);
+      |     ^~~~~~
+reserva.c:43:5: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+reserva.c: In function ‘comparaCPFSolicitanteReserva’:
+reserva.c:63:10: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   63 |     if (!strcmp(r->cpf, cpf))
+      |          ^~~~~~
+reserva.c:63:10: note: include ‘<string.h>’ or provide a declaration of ‘strcmp’
+reserva.c: In function ‘setStatusReserva’:
+reserva.c:132:5: warning: incompatible implicit declaration of built-in function ‘strcpy’ [-Wbuiltin-declaration-mismatch]
+  132 |     strcpy(d->status, status);
+      |     ^~~~~~
+reserva.c:132:5: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+reserva.c: In function ‘setIDReserva’:
+reserva.c:142:5: warning: incompatible implicit declaration of built-in function ‘strcpy’ [-Wbuiltin-declaration-mismatch]
+  142 |     strcpy(d->id, id);
+      |     ^~~~~~
+reserva.c:142:5: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’

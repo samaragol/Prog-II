@@ -1,0 +1,374 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: SamaraGoncalves
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA SamaraGoncalves:
+ - Diretório Resultados/SamaraGoncalves criado com sucesso!
+ - Diretório Resultados/SamaraGoncalves/main criado com sucesso!
+ - Diretório Resultados/SamaraGoncalves/completo criado com sucesso!
+ - Diretório Resultados/SamaraGoncalves/fila criado com sucesso!
+ - Diretório Resultados/SamaraGoncalves/reserva criado com sucesso!
+ - Diretório Resultados/SamaraGoncalves/economica criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/SamaraGoncalves/economica.c' encontrado!
+ - Arquivo esperado 'Respostas/SamaraGoncalves/economica.h' encontrado!
+ - Arquivo esperado 'Respostas/SamaraGoncalves/fila.c' encontrado!
+ - Arquivo esperado 'Respostas/SamaraGoncalves/fila.h' encontrado!
+ - Arquivo esperado 'Respostas/SamaraGoncalves/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/SamaraGoncalves/reserva.c' encontrado!
+ - Arquivo esperado 'Respostas/SamaraGoncalves/reserva.h' encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/SamaraGoncalves/main
+ - Copiando os Includes/economica.h Includes/fila.h Includes/reserva.h do professor para a pasta Resultados/SamaraGoncalves/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/SamaraGoncalves/main
+ - Removendo o main.o do professor da pasta Resultados/SamaraGoncalves/main
+ - Copiando o Respostas/SamaraGoncalves/main.c do aluno para a pasta Resultados/SamaraGoncalves/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/SamaraGoncalves/completo
+ - Copiando os Respostas/SamaraGoncalves/economica.c do aluno para a pasta Resultados/SamaraGoncalves/completo
+ - Copiando os Respostas/SamaraGoncalves/economica.h do aluno para a pasta Resultados/SamaraGoncalves/completo
+ - Copiando os Respostas/SamaraGoncalves/fila.c do aluno para a pasta Resultados/SamaraGoncalves/completo
+ - Copiando os Respostas/SamaraGoncalves/fila.h do aluno para a pasta Resultados/SamaraGoncalves/completo
+ - Copiando os Respostas/SamaraGoncalves/main.c do aluno para a pasta Resultados/SamaraGoncalves/completo
+ - Copiando os Respostas/SamaraGoncalves/reserva.c do aluno para a pasta Resultados/SamaraGoncalves/completo
+ - Copiando os Respostas/SamaraGoncalves/reserva.h do aluno para a pasta Resultados/SamaraGoncalves/completo
+ - Pasta fila:
+ - Copiando os Casos de teste para a pasta Resultados/SamaraGoncalves/fila
+ - Copiando os Includes/economica.h Includes/fila.h Includes/reserva.h do professor para a pasta Resultados/SamaraGoncalves/fila
+ - Copiando os Includes/*.o do professor para a pasta Resultados/SamaraGoncalves/fila
+ - Removendo o fila.o do professor da pasta Resultados/SamaraGoncalves/fila
+ - Copiando o Respostas/SamaraGoncalves/fila.c do aluno para a pasta Resultados/SamaraGoncalves/fila
+ - Pasta reserva:
+ - Copiando os Casos de teste para a pasta Resultados/SamaraGoncalves/reserva
+ - Copiando os Includes/economica.h Includes/fila.h Includes/reserva.h do professor para a pasta Resultados/SamaraGoncalves/reserva
+ - Copiando os Includes/*.o do professor para a pasta Resultados/SamaraGoncalves/reserva
+ - Removendo o reserva.o do professor da pasta Resultados/SamaraGoncalves/reserva
+ - Copiando o Respostas/SamaraGoncalves/reserva.c do aluno para a pasta Resultados/SamaraGoncalves/reserva
+ - Pasta economica:
+ - Copiando os Casos de teste para a pasta Resultados/SamaraGoncalves/economica
+ - Copiando os Includes/economica.h Includes/fila.h Includes/reserva.h do professor para a pasta Resultados/SamaraGoncalves/economica
+ - Copiando os Includes/*.o do professor para a pasta Resultados/SamaraGoncalves/economica
+ - Removendo o economica.o do professor da pasta Resultados/SamaraGoncalves/economica
+ - Copiando o Respostas/SamaraGoncalves/economica.c do aluno para a pasta Resultados/SamaraGoncalves/economica
+ - Copiando Arquivos Extras do Aluno:
+ - Copiando Respostas/SamaraGoncalves/executiva.c para Resultados/SamaraGoncalves/main
+ - Copiando Respostas/SamaraGoncalves/executiva.c para Resultados/SamaraGoncalves/completo
+ - Copiando Respostas/SamaraGoncalves/executiva.h para Resultados/SamaraGoncalves/main
+ - Copiando Respostas/SamaraGoncalves/executiva.h para Resultados/SamaraGoncalves/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Erro de compilação! Verifique os arquivos da pasta main.
+ - Erro de compilação! Verifique os arquivos da pasta completo.
+ - Compilação dos arquivos do aluno na pasta fila ok!
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/fila/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta reserva ok!
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/reserva/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta economica ok!
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/economica/result_compilation.txt
+ - Arquivos Compilados: Erro!: 2 arquivos com erros de compilacao.
+
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/completo/result_linking.txt
+ - Pasta fila:
+ - Gerando o binário prog linkando com o(s) arquivo(s) fila/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/fila/result_linking.txt
+ - Pasta reserva:
+ - Gerando o binário prog linkando com o(s) arquivo(s) reserva/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/reserva/result_linking.txt
+ - Pasta economica:
+ - Gerando o binário prog linkando com o(s) arquivo(s) economica/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/economica/result_linking.txt
+ - Arquivos Linkados: Erro! 3 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 10:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 8:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 9:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 7.50) - 0 de 100 - 0% de 7.50: 0.
+ -----
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 10:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 8:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 9:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 0.0) - 0 de 100 - 0% de 0.0: 0.
+ -----
+ - Pasta fila / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 10:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 8:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta fila / Caso 9:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta fila (máximo 1.00) - 0 de 100 - 0% de 1.00: 0.
+ -----
+ - Pasta reserva / Caso 1:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/reserva/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 87, frees: 87, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 10:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/reserva/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 307, frees: 307, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 2:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/reserva/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 88, frees: 88, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 3:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/reserva/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6,008, frees: 6,008, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 4:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/reserva/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 76, frees: 76, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 5:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/reserva/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 78, frees: 78, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 6:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/reserva/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 168, frees: 168, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 7:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/reserva/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 87, frees: 87, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 8:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/reserva/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 87, frees: 87, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 9:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/reserva/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 93, frees: 93, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta reserva (máximo 1.00) - 100.00 de 100 - 100.00% de 1.00: 1.00.
+ -----
+ - Pasta economica / Caso 1:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/economica/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 87, frees: 87, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta economica / Caso 10:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/economica/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 307, frees: 307, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta economica / Caso 2:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/economica/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 88, frees: 88, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta economica / Caso 3:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/economica/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6,008, frees: 6,008, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta economica / Caso 4:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/economica/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 76, frees: 76, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta economica / Caso 5:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/economica/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 78, frees: 78, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta economica / Caso 6:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/economica/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 168, frees: 168, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta economica / Caso 7:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/economica/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 87, frees: 87, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta economica / Caso 8:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/economica/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 87, frees: 87, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta economica / Caso 9:
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/economica/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 93, frees: 93, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta economica (máximo 0.50) - 100.00 de 100 - 100.00% de 0.50: .50.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: SamaraGoncalves
+ - Arquivos Esperados Corretos: 6 de 7
+ - Pastas Compiladas Corretamente: 3 de 5 
+ - Pastas Linkadas Corretamente: 2 de 5
+ - Teste main
+ - Resultados corretos: 0 de 10
+ - Valgrinds corretos: 0 de 10
+ - Nota de SamaraGoncalves para o teste main: 0
+ - Teste completo
+ - Resultados corretos: 0 de 10
+ - Valgrinds corretos: 0 de 10
+ - Nota de SamaraGoncalves para o teste completo: 0
+ - Teste fila
+ - Resultados corretos: 0 de 10
+ - Valgrinds corretos: 0 de 10
+ - Nota de SamaraGoncalves para o teste fila: 0
+ - Teste reserva
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de SamaraGoncalves para o teste reserva: 1.00
+ - Teste economica
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de SamaraGoncalves para o teste economica: .50
+ - Nota de SamaraGoncalves: 0+(0)+(1.00)+(.50)+(0)+(0)
+ - Nota de SamaraGoncalves: 1.50
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+
