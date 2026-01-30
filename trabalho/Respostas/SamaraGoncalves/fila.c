@@ -1,39 +1,51 @@
-
-
-#ifndef _FILA_H_
-#define _FILA_H_
-
+#include <stdio.h>
+#include <stdlib.h>
+#include "fila.h"
 #include "reserva.h"
 
-typedef struct Fila Fila;
+struct Fila
+{
+    Reserva **reservas;
+    int qtdRes;
+    int qtdResCon;
+};
 
 /**
  * @brief Cria uma fila de reservas vazia
  * @return Ponteiro para a fila criada
  */
-Fila *criaFila();
+Fila *criaFila()
+{
+    Fila *fila;
+
+    fila = (Fila *)calloc(1, sizeof(Fila));
+
+    return fila;
+}
 
 /**
  * @brief Insere uma nova reserva na fila e realiza todas as operações de memória necessárias
  * @param f Fila de reservas
  * @param cpfPassageiro CPF do passageiro que está solicitando a reserva
  * @param codigoVoo Código do voo associado à reserva
- * @param dado   Uma reserva genérica  (considerando que existe mais de um tipo de reserva) 
+ * @param dado   Uma reserva genérica  (considerando que existe mais de um tipo de reserva)
  * @param getTipo   Função de callback que retorna o tipo da reserva
  * @param notifica  Função de callback que irá imprimir uma reserva quando for solicitada uma consulta
  * @param desaloca  Função de callback que irá desalocar  uma reserva da memória
  * @param processa  Função de callback que irá processar uma reserva
  */
 void insereReservaNaFila(Fila *f, char *cpfPassageiro, char *codigoVoo, void *dado,
-                         func_ptr_tipo getTipo,      
-                         func_ptr_imprime notifica, 
-                         func_ptr_desaloca desaloca, 
-                         func_ptr_processa processa);
-
+                         func_ptr_tipo getTipo,
+                         func_ptr_imprime notifica,
+                         func_ptr_desaloca desaloca,
+                         func_ptr_processa processa)
+{
+    
+}
 
 /** * @brief Desaloca toda a memória associada à fila de reservas
  * @param f Fila de reservas a ser desalocada
- */ 
+ */
 void desalocaFila(Fila *f);
 
 /**
@@ -71,5 +83,3 @@ int getQntdReservasConfirmadasFila(Fila *f);
  * @return Ponteiro para a reserva na posição especificada, ou NULL se a posição for inválida
  */
 Reserva *getReservaNaPosicaoFila(Fila *f, int posicao);
-
-#endif // _FILA_H_
