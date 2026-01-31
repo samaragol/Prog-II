@@ -1,1 +1,12 @@
-valgrind: Resultados/SamaraGoncalves/fila/prog: No such file or directory
+=============================
+========= RELATORIO =========
+=============================
+- Aeronaves: 0
+- Voos: 0
+- Reservas: 0
+- Reservas confirmadas: 0
+- Passageiros: 1000
+- Media de idade passageiros: 41
+- Tripulantes: 500
+- Media de horas trabalhadas: 61
+=============================

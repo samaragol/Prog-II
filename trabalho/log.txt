@@ -90,7 +90,7 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/SamaraGoncalves/completo/result_linking.txt
  - Pasta fila:
  - Gerando o binário prog linkando com o(s) arquivo(s) fila/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/SamaraGoncalves/fila/result_linking.txt
  - Pasta reserva:
  - Gerando o binário prog linkando com o(s) arquivo(s) reserva/*.o
@@ -100,7 +100,7 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Gerando o binário prog linkando com o(s) arquivo(s) economica/*.o
  - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/SamaraGoncalves/economica/result_linking.txt
- - Arquivos Linkados: Erro! 3 arquivos com erros de linkagem.
+ - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
@@ -188,46 +188,56 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para a pasta completo (máximo 0.0) - 0 de 100 - 0% de 0.0: 0.
  -----
  - Pasta fila / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/fila/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 88, frees: 88, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta fila / Caso 10:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/fila/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 281, frees: 281, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta fila / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/fila/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 89, frees: 89, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta fila / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/fila/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6,009, frees: 6,009, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta fila / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/fila/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 77, frees: 77, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta fila / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/fila/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta fila / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/fila/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 169, frees: 169, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta fila / Caso 7:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/fila/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 83, frees: 83, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta fila / Caso 8:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/fila/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 83, frees: 83, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta fila / Caso 9:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta fila (máximo 1.00) - 0 de 100 - 0% de 1.00: 0.
+ - Arquivo de output gerado: Resultados/SamaraGoncalves/fila/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 87, frees: 87, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta fila (máximo 1.00) - 100.00 de 100 - 100.00% de 1.00: 1.00.
  -----
  - Pasta reserva / Caso 1:
  - Arquivo de output gerado: Resultados/SamaraGoncalves/reserva/Casos/1/result_valgrind.txt.
@@ -342,7 +352,7 @@ RESULTADOS FINAIS
 Aluno: SamaraGoncalves
  - Arquivos Esperados Corretos: 6 de 7
  - Pastas Compiladas Corretamente: 3 de 5 
- - Pastas Linkadas Corretamente: 2 de 5
+ - Pastas Linkadas Corretamente: 3 de 5
  - Teste main
  - Resultados corretos: 0 de 10
  - Valgrinds corretos: 0 de 10
@@ -352,9 +362,9 @@ Aluno: SamaraGoncalves
  - Valgrinds corretos: 0 de 10
  - Nota de SamaraGoncalves para o teste completo: 0
  - Teste fila
- - Resultados corretos: 0 de 10
- - Valgrinds corretos: 0 de 10
- - Nota de SamaraGoncalves para o teste fila: 0
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de SamaraGoncalves para o teste fila: 1.00
  - Teste reserva
  - Resultados corretos: 10 de 10
  - Valgrinds corretos: 10 de 10
@@ -363,8 +373,8 @@ Aluno: SamaraGoncalves
  - Resultados corretos: 10 de 10
  - Valgrinds corretos: 10 de 10
  - Nota de SamaraGoncalves para o teste economica: .50
- - Nota de SamaraGoncalves: 0+(0)+(1.00)+(.50)+(0)+(0)
- - Nota de SamaraGoncalves: 1.50
+ - Nota de SamaraGoncalves: 0+(1.00)+(1.00)+(.50)+(0)+(0)
+ - Nota de SamaraGoncalves: 2.50
 
 ----------------------------------------------------------------------------
 

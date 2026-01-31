@@ -50,5 +50,3 @@ int getNumBagagensExecutiva(void *dado);
  * @return Caractere representando o tipo da reserva ('E' para Executiva)
  */
 char getTipoExecutiva();
-
-#endif // _EXECUTIVA_H_

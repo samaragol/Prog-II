@@ -1,0 +1,4 @@
+aluno.c: In function ‘LeAlunos’:
+aluno.c:47:12: warning: unused variable ‘aluno’ [-Wunused-variable]
+   47 |     Aluno *aluno;
+      |            ^~~~~
